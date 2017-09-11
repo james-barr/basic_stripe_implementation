@@ -12,7 +12,9 @@ Utilize a fake Visa:
   CVC: Any valid visa cvc # (all digits)
 
 Results of 2 tests:
-![Stripe Screenshot](images/stripe.png)
+![stripe](https://user-images.githubusercontent.com/28546189/30297278-79b14ca4-9704-11e7-90cc-101086867450.png)
+
+
 
 
 * Images are hosted in Issues
