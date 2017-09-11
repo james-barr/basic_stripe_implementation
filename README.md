@@ -1,17 +1,18 @@
 # Stripe Basics
 
-This project illustrates how to manage payments in a Rails 4 application using [Stripe.com](http://stripe.com) service.
+Converted "https://launchschool.com/blog/stripe-checkout" to a Rails 5 project and implemented its basic  [Stripe.com](http://stripe.com) service.
 
-This is divided in three branches: 'master', 'checkout', 'cards', 'recurring', 'coupons' and 'marketplace'. Each branch corresponds with one 'Tealeaf academy' article:
+Signed up for Stripe, created Ubuntu ENVs for publishable and secret keys, configured Stripe within the app, and setup the views / models / controllers to create a functioning test application.
 
-* ["Stripe Checkout for Rails"](http://www.gotealeaf.com/blog/stripe-checkout): Adding just one button and go. Corresponds with **[checkout]** branch.
-* ["Stripe.js for payments with credit cards"](http://www.gotealeaf.com/blog/stripe-js): Creating our form to accept Credit card Payments using our own form. Corresponds with **[cards]** branch.
-* ["Recurring Payments With Stripe"](http://www.gotealeaf.com/blog/stripe-recurring): Here both payment methods in the first articles are adapted to process recurring payments. Corresponds with **[recurring]** branch.
-* ["Stripe coupons"](http://www.gotealeaf.com/blog/stripe-coupons): Add the possibility to accept promotional discount coupos from your cliens. Corresponds with **[coupons]** branch.
-* ["Stripe.js for payments with credit cards"](http://www.gotealeaf.com/blog/stripe-marketplace): Act as an intermediary service between your clients and their customers. Corresponds with **[marketplace]** branch.
+Register for any of the 3 courses to go through registration process.
 
-**[master]** branch corresponds with the basic application without payment processor. Very useful if you wish to try this article series by yourself in local.
+Utilize a fake Visa:
+  #: 4242 4242 4242 4242
+  Exp: whenever (must be in future)
+  CVC: Any valid visa cvc # (all digits)
 
-Enjoy!
+Results of 2 tests:
+![Stripe Screenshot](images/stripe.png)
 
-The Tealeaf Team
+
+* Images are hosted in Issues

@@ -1,4 +1,4 @@
-class CreateRegistrations < ActiveRecord::Migration
+class CreateRegistrations < ActiveRecord::Migration[5.1]
   def change
     create_table :registrations do |t|
       t.references :course, index: true
